@@ -4,6 +4,7 @@ call via tapi to number
 [tapilinecall exe](tapilinecall.exe)  
 [tapilinecall zip](tapilinecall.zip)  
 
+[tapi-wahlhilfe](tapi-wahlhilfe.zip) eine etwas erweiterte Version die das Speichern von Zeitstempeln erlaubt sowie den Anruf des letzen Nummer ohne Angabe der Nummer. 
 
 
 technically it calls tapiRequestMakeCall with parameters
