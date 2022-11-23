@@ -1,8 +1,8 @@
 # tapilinecall
 call via tapi to number
 
-[tapilinecall](../blob/master/tapilinecall.exe)  
-[tapilinecall](../blob/master/tapilinecall.zip)  
+[tapilinecall exe](tapilinecall.exe)  
+[tapilinecall zip](tapilinecall.zip)  
 
 
 
