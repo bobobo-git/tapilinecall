@@ -40,6 +40,25 @@ Alles unbefriedigend ...
 allerdings wenns geht, geht es (ne Zeitlang)
 
 
+--------- Kundenrezension -----
+Herzlichen Dank!  
+Ich habe gestern 12 Plätze so eingerichtet, es lief gut. (*1)  
+Am besten war es, immer erst den Dialer direkt aufzurufen und einen Testanruf zu machen > wenn die Leitung so funktionierte, lief es auch über Skriptaufruf einwandfrei.  
 
+(*1)  
 
+Dialer-batch-Datei  
+```
+@echo off 
+set /p Rufnummer="Rufnummer einfuegen per Rechtsklick - Danach Enter"
+set Rufnummer=0%Rufnummer%  
+echo %Rufnummer%  
+tapilinecall.exe %Rufnummer%
+set Rufnummer=
+```  
+
+ich kann Erfolg vermelden.  
+Habe es so zum Laufen gebracht:  
+
+Dialer.exe aus System32 kopiert und umbenannt in Dialit32.exe, abgelegt  
 
